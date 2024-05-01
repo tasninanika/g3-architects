@@ -113,6 +113,21 @@ main{
     
 }
 
+/* facts */
+.facts-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 70px;
+    border: 3px solid black;
+}
+.text-facts{
+    color:  #727272;
+    font-size: 1rem;
+    line-height: 1.625rem; 
+    margin-left: 70px;
+    
+}
 
 /*responsive*/
 
