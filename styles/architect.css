@@ -118,7 +118,7 @@ main{
     color: #131313;
     font-size: 45px;
     font-weight: 700;
-    margin-left: 70px;
+    margin-left: 95px;
     width: 258px;
     height: 53px;
 }
@@ -126,7 +126,7 @@ main{
     color:  #727272;
     font-size: 1rem;
     line-height: 1.625rem; 
-    margin-left: 70px;
+    margin-left: 95px;
     width: 542px;
     height: 52px;
 
@@ -135,7 +135,7 @@ main{
 .facts-card{
     display: flex;
     justify-content: space-around;
-    padding: 100px;
+    padding: 110px;
     padding-top: 30px;
 }
 .facts-card .card{
@@ -186,6 +186,31 @@ main{
     padding-right: 30px;
 
 }
+/*sponsor*/
+.section-title{
+    color: #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+    text-align: center;
+}
+.section-text{
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625rem;
+    
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 40px;
+    align-items: center;
+}
+.sponsors-img img{
+    width: 165px;
+}
 
 /*responsive*/
 
@@ -217,6 +242,23 @@ main{
         padding-left: 50px;
         padding-right: 20px;
     }
+    .facts-card{
+        flex-direction:column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .facts-title{
+        margin-left: 50px;
+    }
+    .text-facts{
+        margin-left: 50px;
+        width: 300px;
+        height: 10px;
+        margin-bottom: 100px;
+    }
+    .sponsors-img{
+        flex-direction: column;
+    }
     
 }
 
@@ -225,7 +267,7 @@ main{
     header{
         padding: 50px;
     }
-    nav, .teams-container {
+    nav, .teams-container, .sponsors-img {
         flex-direction: column;
     }
     .nav-title{
@@ -240,4 +282,47 @@ main{
     .teams-content{
         padding-left: 0px;
     }
+    .facts-title{
+        margin-left: 75px;
+    }
+    .text-facts{
+        margin-left: 75px;
+    }
+    .facts-card{
+        padding: 5px;
+    }
+    .facts-card .card-title1{
+        margin-top: 15px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .facts-card .card-title2{
+        margin-top: 15px;
+        padding-left: 4px;
+        padding-right: 4px;
+    
+    }
+    .facts-card .card-title3{
+        margin-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
+    .facts-card .card-title4{
+        margin-top: 15px;
+        padding-left: 27px;
+        padding-right: 27px;
+    
+    }
+    .facts-card .card-stats{
+        font-size: 1.8rem;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .facts-card .card{
+        padding: 15px 5px;
+    }
+
+    
+
 }
