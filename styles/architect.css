@@ -113,6 +113,76 @@ main{
     
 }
 
+/*features*/
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 80px;
+    margin-left: 70px;
+}
+.features-img img{
+    border-radius: 8px;
+    width: 708px;
+    height: 982px;
+}
+.sec-title{
+    color: #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+    width: 468px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-text{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 586px;
+}
+.features-content .features-card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 500px;
+    height: 150px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.feature-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.features-para{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 514px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    padding: 40px;
+
+}
+.ten-years-badge h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+.ten-years-badge p{
+    color: #FFF;
+    font-size: 1.563rem;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
 /* facts */
 .facts-title{
     color: #131313;
